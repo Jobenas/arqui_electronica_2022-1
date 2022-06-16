@@ -46,5 +46,4 @@ if __name__ == '__main__':
 
         t = Thread(target=client_handler, args=(conn, server_address))
         t.start()
-
     
