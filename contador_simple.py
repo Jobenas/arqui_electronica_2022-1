@@ -1,11 +1,11 @@
 import time
 
-CUENTA = 50000000
+CUENTA = 100000000
 
 def cuenta(n):
     while n > 0:
         n -= 1
-    print("Fin de cuenta")
+    # print("Fin de cuenta")
 
 if __name__ == "__main__":
     inicio = time.perf_counter()
